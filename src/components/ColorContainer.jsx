@@ -11,12 +11,6 @@ function ColorContainer() {
         return `rgb(${r}, ${g}, ${b})`;
     }
 
-    // const changeColor = () => {
-    //     intervalColor = setInterval(() => {
-    //         setColor(randomRgbColor());
-    //     }, 1000);
-    // };
-
     useEffect(() => {
         const interval = setInterval(() => {
             if (!!action) {
